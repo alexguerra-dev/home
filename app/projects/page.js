@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
@@ -9,7 +11,9 @@ export default function Projects() {
                 <h1 className="text-4xl font-bold">Projects</h1>
                 <h2>
                     <ul>
-                        <li>Project 1</li>
+                        <li>
+                            <Link href="/projects/games">Games</Link>
+                        </li>
                         <li>Project 2</li>
                         <li>Project 3</li>
                     </ul>
