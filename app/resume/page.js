@@ -5,7 +5,7 @@ export default function Resume() {
     return (
         <>
             <Header></Header>
-            <main className="flex min-h-screen flex-col items-center justify-between p-24">
+            <main className="flex flex-col items-center justify-between p-24">
                 <h1 className="text-4xl font-bold">Resume</h1>
 
                 <h2>
