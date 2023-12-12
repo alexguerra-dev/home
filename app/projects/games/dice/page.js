@@ -6,7 +6,7 @@ export default function Dice() {
         <>
             <Header></Header>
             <main className="flex min-h-screen flex-col items-center justify-between p-24">
-                <h1 className="text-4xl font-bold">Dice Game</h1>
+                <h1 className="text-4xl font-bold">Dice Roller</h1>
 
                 <h2>
                     <ul>
