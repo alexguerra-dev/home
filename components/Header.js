@@ -36,9 +36,9 @@ export default function Header() {
                 </div>
 
                 <div className="max-lg:hidden">
-                    <Link href="/projects/games">
+                    <Link href="/projects">
                         <p className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                            Dice
+                            Projects
                         </p>
                     </Link>
                     <Link href="/resume">
@@ -47,12 +47,12 @@ export default function Header() {
                         </p>
                     </Link>
                     <Link href="/about">
-                        <p className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+                        <p className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                             About
                         </p>
                     </Link>
                     <Link href="/contact">
-                        <p className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+                        <p className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                             Contact
                         </p>
                     </Link>
@@ -80,13 +80,13 @@ export default function Header() {
                         </Link>
                         <Link
                             href="/about"
-                            className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+                            className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
                         >
                             About
                         </Link>
                         <Link
                             href="/contact"
-                            className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+                            className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
                         >
                             Contact
                         </Link>
