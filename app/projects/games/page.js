@@ -8,7 +8,7 @@ export default function Games() {
     return (
         <>
             <Header></Header>
-            <main className="p-24">
+            <main className="p-24 flex-grow">
                 <h1 className="text-4xl font-bold">Games</h1>
 
                 <div class="max-w-sm rounded overflow-hidden shadow-lg">

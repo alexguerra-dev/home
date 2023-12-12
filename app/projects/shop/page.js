@@ -5,7 +5,7 @@ export default function Shop() {
     return (
         <>
             <Header></Header>
-            <main className="flex flex-col items-center justify-between p-24">
+            <main className="flex flex-col flex-grow items-center justify-between p-24">
                 <h1 className="text-4xl font-bold">Music Store Front</h1>
 
                 <h2>
